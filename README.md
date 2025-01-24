@@ -7,6 +7,7 @@
 **인원** : 1인 <br>
 해외축구 주요 데이터를 열람하고 여러 사람들과 커뮤니티를 즐길 수 있는 앱으로,
 React-Native와 [FootballDataAPI](https://www.football-data.org/)를 이용하여 제작되었습니다.
+**배포** : [expo 배포](https://expo.dev/accounts/constalos/projects/FootballPark/builds/164f8dcb-2756-4cc3-8e3c-61c0282b2b76)
 
 ## :clipboard:기술스택
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
