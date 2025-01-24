@@ -1,74 +1,56 @@
-# Welcome to your Expo app 👋
+# :deciduous_tree:FootballPark
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## :bulb:프로젝트 소개
+![MainScreen](./mdImages/0Main.png)
 
-## Get started
+**프로젝트 기간** : 2024.09 ~ 2024.11<br>
+**인원** : 1인 <br>
+해외축구 주요 데이터를 열람하고 여러 사람들과 커뮤니티를 즐길 수 있는 앱으로,
+React-Native와 [FootballDataAPI](https://www.football-data.org/)를 이용하여 제작되었습니다.
 
-1. Install dependencies
+## :clipboard:기술스택
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/reactnative-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/expo-000020?style=for-the-badge&logo=expo&logoColor=white">
+<img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
 
-   ```bash
-   npm install
-   ```
+## :computer:주요화면
+### 리그순위
+![RankScreen](./mdImages/1Rank.gif)
+- 해외 5대리그의 실시간 순위표를 제공합니다.
+- 주요 팀들의 상세 정보 및 일정을 제공합니다.
+- 관심있는 구단 즐겨찾기 기능을 제공합니다.
 
-2. Start the app
+### 리그별일정
+![ScheduleScreen](./mdImages/2Schedule.gif)
+- 해외 5대리그의 경기 일정 및 실시간 스코어 정보를 제공합니다.
 
-   ```bash
-    npx expo start
-   ```
+### 커뮤니티 센터 : 채팅
+![ChatScreen](./mdImages/3Chat.gif)
+- 진행중인 경기의 실시간 스코어 정보를 제공합니다.
+- 실시간 경기 스코어를 확인하며 불특정 다수의 사람들과 오픈 채팅을 즐길 수 있습니다.
 
-In the output, you'll find options to open the app in a
+### 커뮤니티 센터 : 게시판
+![ForumScreen](./mdImages/4Forum.gif)
+- 닉네임을 설정하고 다양한 주제의 게시글을 작성할 수 있습니다.
+- 각 게시글에 댓글을 작성할 수 있습니다.
+- 비밀번호를 설정하고, 비밀번호를 입력하여 게시글을 삭제할 수 있습니다.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 데이터 센터
+![DataScreen](./mdImages/5Data.gif)
+- 사용자가 원하는 리그, 시즌, 선수를 선택 및 검색하여 주요 데이터를 조회할 수 있습니다.
+- 수치 데이터와 시각화 데이터 두 가지를 모두 제공합니다.
+- 관심있는 선수 즐겨찾기 기능을 제공합니다.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 마이페이지
+![MypageScreen](./mdImages/6Mypage.gif)
+- 프로필사진, 닉네임, 즐겨찾기 정보를 관리할 수 있습니다.
+- FAQ, 고객센터 등 각종 사용자 편의 기능을 제공합니다.
 
-## Get a fresh project
+## :mag:앱 구조 및 흐름
+![Sequence](./mdImages/Sequence.png)
+- 컴포넌트 구조
+![Flow](./mdImages/Flow.png)
+- 앱 흐름도
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-## 업로드 내역
-
-- 최초 업로드 : 24.09.13
-- 2차 업로드 : 24.09.29
-- 3차 업로드 : 24.10.08
-- 4차 업로드 : 24.10.15
-- 5차 업로드 : 24.10.21
-- 6차 업로드 : 24.10.22
-- 7차 업로드 : 24.10.24
-- 8차 업로드 : 24.10.26
-- 9차 업로드 : 24.10.29
-- 10차 업로드 : 24.11.05
-- 11차 업로드 : 24.11.09
-- 12차 업로드 : 24.11.13
-- 13차 업로드 : 24.11.17
-- 14차 업로드 : 24.11.18
-- 15차 업로드 : 24.11.20
-- 16차 업로드 : 24.11.21
-- 17차 업로드 : 24.11.23
-- 최종 : 24.12.05
-
-## 프로젝트 개요
-- 노션(https://jolly-animal-871.notion.site/13c2bc94be2880b9b7d1e2b6eaa81501)
+## :notebook:비고
