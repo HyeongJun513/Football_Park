@@ -48,10 +48,10 @@ React-Native와 [FootballDataAPI](https://www.football-data.org/)를 이용하�
 - FAQ, 고객센터 등 각종 사용자 편의 기능을 제공합니다.
 
 ## :mag:앱 구조 및 흐름
-### 컴포넌트 구조
+### - 컴포넌트 구조
 ![Sequence](./mdImages/Sequence.png)
 
-### 앱 흐름도
+### - 앱 흐름도
 ![Flow](./mdImages/Flow.png)
 
 ## :notebook:비고
